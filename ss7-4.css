@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex1 {
+    background-color: rgb(0, 145, 255);
+    color: aliceblue;
+    width: 300px;
+}
+.flexbox {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 149px 149px;
+    height: 100px;
+}
+.flexbox .flex:nth-of-type(1) {
+    background-color: rgb(0, 255, 106);
+    color: aliceblue;
+}
+.flexbox .flex:nth-of-type(2) {
+    background-color: rgb(247, 49, 49);
+    color: aliceblue;
+}
+.flex2 {
+    background-color: mediumpurple;
+    color: aliceblue;
+    width: 300px;
+}
+section {
+    display: grid;
+    grid-gap: 2px;
+}
