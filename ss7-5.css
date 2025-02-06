@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:2px
+}
+.flexbox>div {
+    background-color: darkviolet;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.flex3 {
+    height: 60px;
+}
+.flex {
+    height: 40px;
+}
